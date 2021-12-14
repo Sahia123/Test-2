@@ -1,0 +1,5 @@
+git commands
+init
+push
+pull
+remote add
