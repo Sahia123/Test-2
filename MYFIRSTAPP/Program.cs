@@ -15,14 +15,17 @@ namespace MYFIRSTAPP
 
             int age ;
             string name;
+float height;
             Console.WriteLine("Enter your name:"); //for printing on the screen
             name = Console.ReadLine(); // for taking input it is in string format
             Console.WriteLine("Enter your age:");
             age = int.Parse(Console.ReadLine());
-
-            Console.WriteLine("Hello " + name);
+	    Console.WriteLine("Enter your height:");
+            height= float.Parse(Console.ReadLine());
+            Console.WriteLine("Hello " + name + " " + height);
             Console.Write("You are " + age + " years old");
-            Console.Read();
+
+           
         }
     }
 }
